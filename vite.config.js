@@ -2,5 +2,5 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/invitacion-malena-3d/',
+  base: process.env.GITHUB_ACTIONS === 'true' ? '/invitacion-malena-3d/' : '/',
 });

@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: invitacion-malena-3d
+    runtime: static
+    buildCommand: npm ci && npm run build
+    staticPublishPath: ./dist
