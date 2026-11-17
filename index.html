@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#590d22">
+
+    <title>Una invitación para Malena 💗</title>
+
+    <link rel="stylesheet" href="/src/style.css">
+</head>
+
+<body>
+
+    <!-- Fondo 3D -->
+    <div id="world"></div>
+    <div class="vignette"></div>
+
+    <main>
+
+        <!-- PANTALLA 1 -->
+        <section class="screen active" id="screen-1">
+            <div class="glass-card">
+                <p class="eyebrow">UNA PEQUEÑA SORPRESA</p>
+
+                <h1>
+                    heyy,<br>
+                    <em>tuu 💕</em>
+                </h1>
+
+                <p class="subtitle">
+                    hay algo que quería preguntarte...
+                </p>
+
+                <button class="primary" data-next="2">
+                    continuar ✨
+                </button>
+            </div>
+        </section>
+
+        <!-- PANTALLA 2 -->
+        <section class="screen" id="screen-2">
+            <div class="glass-card">
+                <p class="eyebrow">SE ME OCURRIÓ ALGO</p>
+
+                <h2>
+                    tengo una<br>
+                    <em>idea 🤓</em>
+                </h2>
+
+                <p class="subtitle">
+                    y creo que podría ser un plan bastante bonito.
+                </p>
+
+                <button class="primary" data-next="3">
+                    a ver 👀
+                </button>
+            </div>
+        </section>
+
+        <!-- PANTALLA 3 -->
+        <section class="screen" id="screen-3">
+            <div class="glass-card">
+                <p class="eyebrow">PROPUESTA OFICIAL</p>
+
+                <h2>
+                    tú y yo<br>
+                    <em>+ Alasitas 🎡</em>
+                </h2>
+
+                <p class="subtitle">
+                    un paseíto, algo rico y un ratito juntos.
+                    ¿qué dices?
+                </p>
+
+                <button class="primary" data-next="4">
+                    descubrir la pregunta 💌
+                </button>
+            </div>
+        </section>
+
+        <!-- PANTALLA 4 -->
+        <section class="screen" id="screen-4">
+            <div class="glass-card">
+                <p class="eyebrow">UNA PREGUNTA IMPORTANTE</p>
+
+                <h2>
+                    ¿qué dices?<br>
+                    <em>👀</em>
+                </h2>
+
+                <p class="subtitle">
+                    ¿me acompañas a las Alasitas?
+                </p>
+
+                <div class="buttons">
+                    <button class="primary" id="yes-button">
+                        SÍ 💗
+                    </button>
+
+                    <button class="secondary" id="no-button">
+                        NO 🙃
+                    </button>
+                </div>
+
+                <p class="small-note" id="no-hint" aria-live="polite">
+                    elige con confianza, no hay presión jiji
+                </p>
+            </div>
+        </section>
+
+        <!-- PANTALLA 5 -->
+        <section class="screen" id="screen-5">
+            <div class="glass-card">
+                <p class="eyebrow">BUENA ELECCIÓN</p>
+
+                <h2>
+                    ¡buena<br>
+                    <em>elección! 🤓💕</em>
+                </h2>
+
+                <p class="subtitle">
+                    ahora elige qué día te queda mejor:
+                </p>
+
+                <div class="days">
+                    <button class="day" data-day="miércoles">Miércoles</button>
+                    <button class="day" data-day="jueves">Jueves</button>
+                    <button class="day" data-day="viernes">Viernes</button>
+                    <button class="day" data-day="sábado">Sábado</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- PANTALLA 6 -->
+        <section class="screen" id="screen-6">
+            <div class="glass-card">
+                <p class="eyebrow">TRATO HECHO 💌</p>
+
+                <div class="final-message">
+                    gracias por aceptar, es que tengo muchas ganas de verteee 💗
+
+                    <em id="chosen-day">
+                        hasta el miércoles 🌷
+                    </em>
+                </div>
+
+                <p class="subtitle">
+                    ya quiero que llegue ese día hshsh.
+                </p>
+            </div>
+        </section>
+
+        <!-- PANTALLA 7 -->
+        <section class="screen" id="screen-7">
+            <div class="glass-card">
+                <p class="eyebrow">TODO BIEN 💗</p>
+
+                <h2>
+                    no pasa<br>
+                    <em>nadaaa</em>
+                </h2>
+
+                <p class="subtitle">
+                    gracias por responderme.
+                    Si algún día te apetece, aquí estaré 😊
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- JavaScript principal -->
+    <script type="module" src="/src/main.js"></script>
+
+</body>
+</html>
+</html>
